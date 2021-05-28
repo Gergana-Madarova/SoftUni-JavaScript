@@ -1,5 +1,5 @@
 function biggerHalf(input) {
-    let array = input.slice();
+    let [...array] = input;
     let resultLength = Math.floor(array.length / 2);
     let result = array.sort((a, b) => a - b).slice(resultLength);;
 

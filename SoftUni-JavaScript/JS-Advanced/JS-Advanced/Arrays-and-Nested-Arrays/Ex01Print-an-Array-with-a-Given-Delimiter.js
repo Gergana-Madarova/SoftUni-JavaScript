@@ -1,7 +1,5 @@
 function printArrayWithDelimiter(array, delimiter) {
-    let arr = array.slice().join(`${delimiter}`);
-
-    console.log(arr);
+    console.log(array.join(`${delimiter}`));
 }
 
 printArrayWithDelimiter(['One', 'Two', 'Three', 'Four', 'Five'], '-');

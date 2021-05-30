@@ -1,4 +1,4 @@
-function addAndRemoveElements(command) {;
+function addAndRemoveElements(command) {
     const array = [];
 
     for (let index = 0; index < command.length; index++) {

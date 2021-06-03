@@ -5,7 +5,7 @@ function extractIncreasingSubsequence(arr) {
             filterEl.push(curr);
             return curr;
         }
-        else{
+        else {
             return acc;
         }
     }, arr[0]);

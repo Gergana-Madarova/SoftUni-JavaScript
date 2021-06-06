@@ -20,10 +20,10 @@ function cityTaxes(name, population, treasury) {
     return city;
 }
 
-const city = 
-  cityTaxes('Tortuga',
-  7000,
-  15000);
+const city =
+    cityTaxes('Tortuga',
+        7000,
+        15000);
 console.log(city);
 
 // const city =
@@ -34,4 +34,3 @@ console.log(city);
 // console.log(city.treasury);
 // city.applyGrowth(5);
 // console.log(city.population);
-

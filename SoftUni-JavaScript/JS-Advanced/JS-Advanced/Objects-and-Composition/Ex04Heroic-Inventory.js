@@ -22,7 +22,7 @@ function heroicInventory(input) {
 }
 
 console.log(heroicInventory(['Isacc / 25 / Apple, GravityGun',
-'Derek / 12 / BarrelVest, DestructionSword',
-'Hes / 1 / Desolator, Sentinel, Antara']));
+    'Derek / 12 / BarrelVest, DestructionSword',
+    'Hes / 1 / Desolator, Sentinel, Antara']));
 
 console.log(heroicInventory(['Jake / 1000 / Gauss, HolidayGrenade']));

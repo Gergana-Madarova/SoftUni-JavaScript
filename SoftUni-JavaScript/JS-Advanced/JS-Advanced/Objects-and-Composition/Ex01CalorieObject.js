@@ -1,7 +1,7 @@
 function calorieObject(input) {
     const foodCalorie = {};
 
-    for (let index = 0; index < input.length - 1; index+=2) {
+    for (let index = 0; index < input.length - 1; index += 2) {
         let [name] = input[index].split(', ');
         //let [calorie] = input[index + 1];
         foodCalorie[name] = Number(input[index + 1]);

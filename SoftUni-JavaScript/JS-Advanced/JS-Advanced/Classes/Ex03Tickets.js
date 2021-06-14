@@ -26,7 +26,8 @@ function tickets(array, sortingCriterion) {
 }
 
 console.log(tickets(['Philadelphia|194.20|available',
-    'New York City|95.99|available',
-    'New York City|95.99|sold',
-    'Boston|126.20|departed'],
+        'New York City|95.99|available',
+        'New York City|95.99|sold',
+        'Boston|126.20|departed'
+    ],
     'destination'));
